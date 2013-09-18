@@ -15,6 +15,7 @@ function PlayersListGlue(useCase, gui, storage) {
   aop.after(useCase, "removePlayer", function() {
     storage.setPlayers(useCase.getAllPlayers());
     gui.showPlayers(useCase.getAllPlayers());
+    pusher.notify("player:removed", useCase.getAllPlayers());
   });
 
 }
