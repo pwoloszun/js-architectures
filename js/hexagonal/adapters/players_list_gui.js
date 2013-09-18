@@ -6,7 +6,7 @@ PlayersListGui.prototype.showPlayers = function(players) {
   //TODO
 };
 
-PlayersListGui.prototype.selectedPlayerId = function(players) {
+PlayersListGui.prototype.selectedPlayerId = function() {
   //TODO
 };
 
