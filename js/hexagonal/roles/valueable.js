@@ -1,0 +1,5 @@
+Valueable = {
+  getPER: function() {
+    //TODO
+  }
+};
