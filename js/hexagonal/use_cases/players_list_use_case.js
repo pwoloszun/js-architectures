@@ -19,7 +19,7 @@ PlayersListUseCase.prototype.getAllPlayers = function() {
 
 PlayersListUseCase.prototype.removePlayer = function(id) {
   this.players =_(this.players).filter(function(player){
-    return player.id != id;
+    return player.get('id') != id;
   });
 };
 
