@@ -1,4 +1,5 @@
-function PlayersListGui() {
+function PlayersListGui($el) {
+  //TODO
 }
 
 PlayersListGui.prototype.showPlayers = function(players) {
